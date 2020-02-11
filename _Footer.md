@@ -1,0 +1,1 @@
+For documentation, please visit [cli.vuejs.org](https://cli.vuejs.org/).
