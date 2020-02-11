@@ -1,5 +1,3 @@
-# Related Projects
-
 ## ESLint Configs
 
 * [@vue/eslint-config-airbnb][1]
