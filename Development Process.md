@@ -1,4 +1,3 @@
-
 ## Roadmap
 
 The team has a 6-12 months high level [[Roadmap]] which defines high level themes and features to be addressed in this timeframe.
@@ -23,5 +22,4 @@ We work in weekly segments:
 - **Week 1 (next iteration)**: 
 	  - monitoring the pre-release and fixing critical issues.
 	  - publish the release to the ‘latest’ channel, sometime midweek, after 24 hours with no changes to the pre-release.
-
 
