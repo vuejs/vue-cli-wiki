@@ -20,30 +20,30 @@ Legend of annotations:
 *  [ ] Add E2E tests that include a package publishing process (to a local npm registry)
 *  [ ] :muscle: Gradually migrate the codebase to TypeScript
 
-## CLI
+##  Vue 3 Support
 
-## CLI Service
+*  [ ] :runner: Should add a first-class Vue 3 option once things are ready
 
-*  [ ] DevServer: allow lazy compile for multi-page apps, to speed up compilation. [\#5178](https://github.com/vuejs/vue-cli/issues/5178)
-*  [ ] Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
+## Production Usage
 
-## Babel Plugin
+* [ ] **babel:** Investigate the feasibility of [transpiling all dependencies](https://gist.github.com/sodatea/0f12a4477512c02cf6e556df02603de8) in `node_modules` for projects
+* [ ] **cli:** Support scaffolding projects with a “fallback” lock file so that it won’t fail unexpectedly due to some broken upstream releases
+
+## Development Usage
+
+*  [ ] **cli-service:**  (in `serve` command) allow lazy compile for multi-page apps, to speed up compilation. [\#5178](https://github.com/vuejs/vue-cli/issues/5178)
+* [ ] **typescript:** Recommend [`vti`](https://github.com/vuejs/vetur/issues/1635) as a standalone type checking utility
+
+## Keep Up With the Ecosystem
+
+*  [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
+* [ ] **typescript:** Support scaffolding with `@vue/composition-api`
+* [ ] :runner: Fully support Yarn 2
+
+## Modern Mode
 
 * [ ] Use [`@babel/preset-modules`](https://github.com/babel/preset-modules) for modern build [\#4848](https://github.com/vuejs/vue-cli/issues/4848)
-* [ ] Investigate the feasibility of transpiling all dependencies in `node_modules` for projects
 * [ ] Investigate the feasibility of bundling polyfills to a separate chunk (like the [“differential loading”](https://angular.io/guide/deployment#differential-builds) feature of Angular CLI, may replace the current `polyfillsPlugin` implementation)
-
-## TypeScript Plugin
-
-* [ ] :runner: Support Vue 3
-* [ ] Support scaffolding with `@vue/composition-api`
-* [ ] :runner: Support Yarn 2
-
-—
-
-[TO BE CONTINUED…]
-
-—
 
 ## Major Releases
 
