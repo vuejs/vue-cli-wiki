@@ -13,9 +13,9 @@ Legend of annotations:
 | :runner: | on-going work |
 | :muscle: | stretch goal |
 
-## Workflow
+## Engineering
 
-* [ ] Migrate the tests to GitHub Actions
+* [ ] Migrate the CI to GitHub Actions
 	* [ ] Should test against multiple Node.js versions
 *  [ ] Add E2E tests that include a package publishing process (to a local npm registry)
 *  [ ] :muscle: Gradually migrate the codebase to TypeScript
