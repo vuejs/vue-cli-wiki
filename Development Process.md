@@ -1,6 +1,6 @@
 ## Roadmap
 
-The team has a 6-12 months high level [[Roadmap]] which defines high level themes and features to be addressed in this timeframe.
+The team has a 6-12 months high-level [[Roadmap]], which defines high-level themes and features to be addressed in this timeframe.
 
 ## Iterations
 
@@ -13,7 +13,7 @@ The six-week-cycle is commonly adopted in the web development ecosystem. E.g., t
 We work in weekly segments:
 - **Week 1-2**:
 	- Address critical issues uncovered in the previous iteration
-	- Reduce debt introduced in the previous iteration
+	- Reduce debt introduced during the last iteration
 	- Plan the next iteration
 - **Week 3-5**: Work according to the plan
 - **Final Week**: Endgame
@@ -22,4 +22,3 @@ We work in weekly segments:
 - **Week 1 (next iteration)**: 
 	  - monitoring the pre-release and fixing critical issues.
 	  - publish the release to the ‘latest’ channel, sometime midweek, after 24 hours with no changes to the pre-release.
-

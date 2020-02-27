@@ -14,4 +14,4 @@ The Git workflow used in this project is largely inspired by [Gitflow workflow](
 	* If no urgent regressions have been reported in **3 days**:
 		* run `npm dist-tag add {{package-name}} latest` for all the packages in this repository
 		* Go to the Releases page and uncheck the `This is a pre-release` option for this release
-	* Otherwise, fix the bugs, and start over to release a new version from the `next` branch. But this time the new version string should be bumped as patch.
+	* Otherwise, fix the bugs, and start over to release a new version from the `next` branch. But this time, the new version string should be bumped as a patch.
