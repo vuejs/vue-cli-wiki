@@ -36,9 +36,12 @@ Legend of annotations:
 
 ## Keep Up With the Ecosystem
 
-*  [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
+* [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
 * [ ] **typescript:** Support scaffolding with `@vue/composition-api`
-* [ ] :runner: Fully support Yarn 2
+* [ ] :runner: Fully support Yarn 2 [5135](https://github.com/vuejs/vue-cli/issues/5135)
+* [ ] Get rid of (possible) deprecated packages from dependencies
+	* [ ] `request` and `request-promise-native` [\#5220](https://github.com/vuejs/vue-cli/issues/5220)
+	* [ ] Upgrade `joi` to the latest version
 
 ## Modern Mode
 
@@ -54,7 +57,10 @@ At the moment of writing, we plan to ship Vue CLI 5 after the stable release of 
 Current planned features of Vue CLI 5 include:
 
 * Webpack 5
+	* Blocked by [https://github.com/vuejs/vue-loader/issues/1620](https://github.com/vuejs/vue-loader/issues/1620)
 * Cypress 4
 * Workbox 5
+* Jest 25
+	* Blocked by [https://github.com/vuejs/vue-jest/issues/217](https://github.com/vuejs/vue-jest/issues/217)
 * Drop support of Node.js 8
 * Drop support of TSLint
