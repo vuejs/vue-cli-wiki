@@ -1,6 +1,6 @@
 We typically look out 6 to 12 months, establish a set of themes we want to work towards, and then schedule work each milestone supporting those themes. When planning, we typically look at potential work from three perspectives:
 
-* **Maintainability:** As the resources we can devote to this project is not limitless, to ensure the project’s longevity, we need to make sure the code base is as maintainable as possible. This means sometimes we will have to make hard choices on features.
+* **Maintainability:** As the resources we can devote to this project is not limitless, to ensure the project’s longevity, we need to make sure the codebase is as maintainable as possible. This means sometimes we will have to make hard choices on features.
 * **Extensibility:** We cannot implement all the features in the core plugins. There may be widely-needed features that we can’t easily add in the core. But we can make the core extensible enough for the community to implement such features in the user land.
 * **Performance:** We need to take account both the developing experience and the end user experience, and performance is a huge part of it. That includes package installation speed, building speed and the bundled web app size.
 
@@ -23,6 +23,12 @@ Legend of annotations:
 ##  Vue 3 Support
 
 *  [ ] :runner: Should add a first-class Vue 3 option once things are ready
+	*  [x] The core logic has been implemented in [https://github.com/vuejs/vue-cli-plugin-vue-next](https://github.com/vuejs/vue-cli-plugin-vue-next)
+	* [ ] Make it compatible with the TypeScript plugin
+	* [ ] Support [`vue-router-next`](https://github.com/vuejs/vue-router-next/)
+	* [ ] Support Vuex 4 (Not yet available, but there is an experimental repository at [https://github.com/kiaking/vuex3-on-vue3](https://github.com/kiaking/vuex3-on-vue3))
+	* [ ] Update the unit test examples with [`@vue/runtime-test`](https://github.com/vuejs/vue-next/tree/master/packages/runtime-test) (or `@vue/test-utils` when the v1.0 version with Vue 3 support is available)
+	* [ ] Update ESLint configs to include new rules for Vue 3 [https://github.com/vuejs/eslint-plugin-vue/issues/1035](https://github.com/vuejs/eslint-plugin-vue/issues/1035)
 
 ## Production Usage
 
@@ -34,14 +40,14 @@ Legend of annotations:
 *  [ ] **cli-service:**  (in `serve` command) allow lazy compile for multi-page apps, to speed up compilation. [\#5178](https://github.com/vuejs/vue-cli/issues/5178)
 * [ ] **typescript:** Recommend [`vti`](https://github.com/vuejs/vetur/issues/1635) as a standalone type checking utility
 
-## Keep Up With the Ecosystem
+## Keeping Up With the Ecosystem
 
 * [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
 * [ ] **typescript:** Support scaffolding with `@vue/composition-api`
-* [ ] :runner: Fully support Yarn 2 [5135](https://github.com/vuejs/vue-cli/issues/5135)
+* [ ] :runner: Fully support Yarn 2 [\#5135](https://github.com/vuejs/vue-cli/issues/5135)
 * [ ] Get rid of (possible) deprecated packages from dependencies
 	* [ ] `request` and `request-promise-native` [\#5220](https://github.com/vuejs/vue-cli/issues/5220)
-	* [ ] Upgrade `joi` to the latest version
+	* [ ] Upgrade `@hapi/joi` to the latest version
 
 ## Modern Mode
 
