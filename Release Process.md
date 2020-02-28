@@ -11,6 +11,7 @@ The Git workflow used in this project is largely inspired by [Gitflow workflow](
 	* Cherry-pick the necessary commits to the `next` branch
 	* Push to GitHub, make sure all CI tests are passed, and then run `yarn release --dist-tag next` in the project root
 	* Draft a new **pre-release** in the GitHub [Releases](https://github.com/vuejs/vue-cli/releases) page
+	* Merge `next` back into `dev`
 	* If no urgent regressions have been reported in **3 days**:
 		* run `npm dist-tag add {{package-name}} latest` for all the packages in this repository
 		* Go to the Releases page and uncheck the `This is a pre-release` option for this release
