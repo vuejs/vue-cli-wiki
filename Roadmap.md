@@ -26,7 +26,7 @@ Legend of annotations:
 	*  [x] The core logic has been implemented in [https://github.com/vuejs/vue-cli-plugin-vue-next](https://github.com/vuejs/vue-cli-plugin-vue-next)
 	* [ ] Make it compatible with the TypeScript plugin
 	* [ ] Support [`vue-router-next`](https://github.com/vuejs/vue-router-next/)
-	* [ ] Support Vuex 4 (Not yet available, but there is an experimental repository at [https://github.com/kiaking/vuex3-on-vue3](https://github.com/kiaking/vuex3-on-vue3))
+	* [ ] Support Vuex 4 (will soon be available under the `4.0` branch of the Vuex repository)
 	* [ ] Update the unit test examples with [`@vue/runtime-test`](https://github.com/vuejs/vue-next/tree/master/packages/runtime-test) (or `@vue/test-utils` when the v1.0 version with Vue 3 support is available)
 	* [ ] Update ESLint configs to include new rules for Vue 3 [https://github.com/vuejs/eslint-plugin-vue/issues/1035](https://github.com/vuejs/eslint-plugin-vue/issues/1035)
 
@@ -37,8 +37,13 @@ Legend of annotations:
 
 ## Development Usage
 
-*  [ ] **cli-service:**  (in `serve` command) allow lazy compile for multi-page apps, to speed up compilation. [\#5178](https://github.com/vuejs/vue-cli/issues/5178)
+* [ ] **cli-service:**  (in `serve` command) allow lazy compile for multi-page apps, to speed up compilation. [\#5178](https://github.com/vuejs/vue-cli/issues/5178)
 * [ ] **typescript:** Recommend [`vti`](https://github.com/vuejs/vetur/issues/1635) as a standalone type checking utility
+* [ ] :muscle: **eslint:** find a way to work around the cache issue [\#3065](https://github.com/vuejs/vue-cli/issues/3065)
+
+## Vue CLI UI
+
+TODO
 
 ## Keeping Up With the Ecosystem
 
