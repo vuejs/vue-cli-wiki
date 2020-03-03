@@ -73,5 +73,6 @@ Current planned features of Vue CLI 5 include:
 * Workbox 5
 * Jest 25
 	* Blocked by [https://github.com/vuejs/vue-jest/issues/217](https://github.com/vuejs/vue-jest/issues/217)
+* Enable modern mode by default
 * Drop support of Node.js 8
 * Drop support of TSLint
