@@ -1,6 +1,6 @@
 # Vue CLI Wiki
 
-[View the rendered version here]()(https://github.com/vuejs/vue-cli/wiki).
+[View the rendered version here](https://github.com/vuejs/vue-cli/wiki).
 
 ---
 
