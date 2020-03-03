@@ -46,7 +46,7 @@ You can also search for [`vue-cli-plugin` on npm](https://www.npmjs.com/search?q
 ## Alternative Ways to Bundle Vue Components
 
 * [Rollup](https://rollupjs.org/guide/en/)
-	Because of its powerful tree-shaking ability, it is quite popular among library authors. You can use [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup) to scaffold a project for component libraries.
+	Because of its powerful tree-shaking ability, Rollup is quite popular among library authors. You can use [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup) to scaffold a project for component libraries.
 	If you want to write your own configurations instead, the official plugin is [rollup-plugin-vue](https://github.com/vuejs/rollup-plugin-vue).
 * [Parcel](https://github.com/parcel-bundler/parcel)
 	Parcel is a fast, zero-configuration web application bundler. It [supports Vue.js out of the box](https://parceljs.org/vue.html).
