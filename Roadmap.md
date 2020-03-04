@@ -20,13 +20,13 @@ Legend of annotations:
 *  [ ] Add E2E tests that include a package publishing process (to a local npm registry)
 *  [ ] :muscle: Gradually migrate the codebase to TypeScript
 
-##  Vue 3 Support
+## Vue 3 Support
 
 *  [ ] :runner: Should add a first-class Vue 3 option once things are ready
 	*  [x] The core logic has been implemented in [https://github.com/vuejs/vue-cli-plugin-vue-next](https://github.com/vuejs/vue-cli-plugin-vue-next)
 	* [ ] Make it compatible with the TypeScript plugin
 	* [ ] Support [`vue-router-next`](https://github.com/vuejs/vue-router-next/)
-	* [ ] Support Vuex 4 (will soon be available under the `4.0` branch of the Vuex repository)
+	* [ ] Support Vuex 4 (a preview version will soon be available for testing purpose)
 	* [ ] Update the unit test examples with [`@vue/runtime-test`](https://github.com/vuejs/vue-next/tree/master/packages/runtime-test) (or `@vue/test-utils` when the v1.0 version with Vue 3 support is available)
 	* [ ] Update ESLint configs to include new rules for Vue 3 [https://github.com/vuejs/eslint-plugin-vue/issues/1035](https://github.com/vuejs/eslint-plugin-vue/issues/1035)
 
@@ -53,6 +53,7 @@ TODO
 * [ ] Get rid of (possible) deprecated packages from dependencies
 	* [ ] `request` and `request-promise-native` [\#5220](https://github.com/vuejs/vue-cli/issues/5220)
 	* [ ] Upgrade `@hapi/joi` to the latest version
+	* [ ] Remove `core-js` v2 dependency [\#5125](https://github.com/vuejs/vue-cli/issues/5125)
 
 ## Modern Mode
 
