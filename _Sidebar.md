@@ -6,6 +6,7 @@
 
 **Contributing**
 * [Contributor Code of Conduct](https://github.com/vuejs/vue/wiki/Contributor-Code-of-Conduct)
+* [[How to Contribute]]
 
 **Documentation**
 * [Guide](https://cli.vuejs.org/guide/)
