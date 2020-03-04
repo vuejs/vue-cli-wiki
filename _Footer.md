@@ -1,1 +1,1 @@
-For documentation, please visit [cli.vuejs.org](https://cli.vuejs.org/).
+For edits please submit a PR [here](https://github.com/vuejs/vue-cli-wiki). For documentation, please visit [cli.vuejs.org](https://cli.vuejs.org/).
