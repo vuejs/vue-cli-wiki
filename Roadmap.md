@@ -45,6 +45,10 @@ Legend of annotations:
 
 TODO
 
+## Documentation
+
+TODO
+
 ## Keeping Up With the Ecosystem
 
 * [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
@@ -54,6 +58,7 @@ TODO
 	* [ ] `request` and `request-promise-native` [\#5220](https://github.com/vuejs/vue-cli/issues/5220)
 	* [ ] Upgrade `@hapi/joi` to the latest version
 	* [ ] Remove `core-js` v2 dependency [\#5125](https://github.com/vuejs/vue-cli/issues/5125)
+	* [ ] Get rid of node-ipc v9 (Either replace it [\#2621](https://github.com/vuejs/vue-cli/issues/2621), or wait for the v10 release [\#4937](https://github.com/vuejs/vue-cli/issues/4937))
 
 ## Modern Mode
 
