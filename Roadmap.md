@@ -17,8 +17,9 @@ Legend of annotations:
 
 * [ ] Migrate the CI to GitHub Actions
 	* [ ] Should test against multiple Node.js versions
-*  [ ] Add E2E tests that include a package publishing process (to a local npm registry)
-*  [ ] :muscle: Gradually migrate the codebase to TypeScript
+* [ ] Add E2E tests that include a package publishing process (to a local npm registry)
+* [ ] Eliminate circular dependencies in the codebase
+* [ ] :muscle: Gradually migrate the codebase to TypeScript
 
 ## Vue 3 Support
 
@@ -40,6 +41,7 @@ Legend of annotations:
 * [ ] **cli-service:**  (in `serve` command) allow lazy compile for multi-page apps, to speed up compilation. [\#5178](https://github.com/vuejs/vue-cli/issues/5178)
 * [ ] **typescript:** Recommend [`vti`](https://github.com/vuejs/vetur/issues/1635) as a standalone type checking utility
 * [ ] :muscle: **eslint:** find a way to work around the cache issue [\#3065](https://github.com/vuejs/vue-cli/issues/3065)
+* [ ] **cli-service:** consider adding [circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)
 
 ## Vue CLI UI
 
@@ -82,3 +84,4 @@ Current planned features of Vue CLI 5 include:
 * Enable modern mode by default
 * Drop support of Node.js 8
 * Drop support of TSLint
+* Consider deprecating the instant prototyping feature
