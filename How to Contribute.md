@@ -7,3 +7,5 @@ After cloning and building the repo, check out the [issues list](https://github.
 * Issues labeled [`contribution welcome`](https://github.com/vuejs/vue-cli/issues?q=is%3Aissue+is%3Aopen+label%3A%22contribution+welcome%22) or [`help wanted`](https://github.com/vuejs/vue-cli/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are good issues to submit a PR for.
 * Issues labeled [`good first issue`](https://github.com/vuejs/vue-cli/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) are great candidates to pick up if you are in the code for the first time.
 * If you are contributing significant changes, please discuss with the team  and reach consensus first before starting to work on the issue.
+
+Besides, you can also check any unassigned items in the [[Roadmap]] to work on.
