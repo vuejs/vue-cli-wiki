@@ -24,12 +24,8 @@ Legend of annotations:
 ## Vue 3 Support
 
 *  [ ] :runner: Should add a first-class Vue 3 option once things are ready
-	*  [x] The core logic has been implemented in [https://github.com/vuejs/vue-cli-plugin-vue-next](https://github.com/vuejs/vue-cli-plugin-vue-next)
-	* [ ] Make it compatible with the TypeScript plugin
-	* [ ] Support [`vue-router-next`](https://github.com/vuejs/vue-router-next/)
-	* [ ] Support Vuex 4 (a preview version will soon be available for testing purpose)
-	* [ ] Update the unit test examples with [`@vue/runtime-test`](https://github.com/vuejs/vue-next/tree/master/packages/runtime-test) (or `@vue/test-utils` when the v1.0 version with Vue 3 support is available)
-	* [ ] Update ESLint configs to include new rules for Vue 3 [https://github.com/vuejs/eslint-plugin-vue/issues/1035](https://github.com/vuejs/eslint-plugin-vue/issues/1035)
+	* [x] The core logic has been implemented in [https://github.com/vuejs/vue-cli-plugin-vue-next](https://github.com/vuejs/vue-cli-plugin-vue-next)
+	* [ ] The progress is tracked at [https://github.com/vuejs/vue-cli-plugin-vue-next/projects/1](https://github.com/vuejs/vue-cli-plugin-vue-next/projects/1)
 
 ## Production Usage
 
@@ -53,7 +49,7 @@ TODO
 
 ## Keeping Up With the Ecosystem
 
-* [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477)
+* [ ] **cli-service:** Support `vue.config.ts` and `vue.config.mjs` [\#2138](https://github.com/vuejs/vue-cli/issues/2138) [\#4477](https://github.com/vuejs/vue-cli/issues/4477) [\#5046](https://github.com/vuejs/vue-cli/issues/5046)
 * [ ] **typescript:** Support scaffolding with `@vue/composition-api`
 * [ ] :runner: Fully support Yarn 2 [\#5135](https://github.com/vuejs/vue-cli/issues/5135)
 * [ ] Get rid of (possible) deprecated packages from dependencies
@@ -76,7 +72,6 @@ At the moment of writing, we plan to ship Vue CLI 5 after the stable release of 
 Current planned features of Vue CLI 5 include:
 
 * Webpack 5
-	* Blocked by [https://github.com/vuejs/vue-loader/issues/1620](https://github.com/vuejs/vue-loader/issues/1620)
 * Cypress 4
 * Workbox 5
 * Jest 25
