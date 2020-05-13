@@ -41,7 +41,7 @@ Legend of annotations:
 
 ## Vue CLI UI
 
-TODO
+See [https://github.com/vuejs/vue-cli/projects/1](https://github.com/vuejs/vue-cli/projects/1)
 
 ## Documentation
 
@@ -60,8 +60,13 @@ TODO
 
 ## Modern Mode
 
-* [ ] Use [`@babel/preset-modules`](https://github.com/babel/preset-modules) for modern build [\#4848](https://github.com/vuejs/vue-cli/issues/4848)
+* [x] Use [`@babel/preset-modules`](https://github.com/babel/preset-modules) for modern build [\#4848](https://github.com/vuejs/vue-cli/issues/4848)
 * [ ] Investigate the feasibility of bundling polyfills to a separate chunk (like the [“differential loading”](https://angular.io/guide/deployment#differential-builds) feature of Angular CLI, may replace the current `polyfillsPlugin` implementation)
+
+## Misc
+
+- A `vue doctor` command that diagnoses common misconfigurations in the user environment [https://github.com/vuejs/vue-cli/projects/10](https://github.com/vuejs/vue-cli/projects/10)
+- A `vue stats` command like [`rake stats`](https://thoughtbot.com/blog/simple-test-metrics-in-your-rails-app-and-what-they)
 
 ## Major Releases
 
@@ -72,11 +77,13 @@ At the moment of writing, we plan to ship Vue CLI 5 after the stable release of 
 Current planned features of Vue CLI 5 include:
 
 * Webpack 5
+* HTML Webpack Plugin 4
 * Cypress 4
 * Workbox 5
-* Jest 25
-	* Blocked by [https://github.com/vuejs/vue-jest/issues/217](https://github.com/vuejs/vue-jest/issues/217)
+* Jest 26
+* Mocha 7
 * Enable modern mode by default
 * Drop support of Node.js 8
 * Drop support of TSLint
+* Do not allow creating projects with uppercase names even in Vue CLI UI.
 * Consider deprecating the instant prototyping feature
